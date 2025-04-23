@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Hadhee Rahman</title>
+    <meta name="description" content="Welcome to my portfolio" />
+    <meta name="author" content="Hadhee Rahman" />
+    <meta property="og:title" content="Hadhee Rahman Portfolio" />
+    <meta property="og:type" content="portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital@0;1&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <main>
+      <header>
+        <div>
+          <h1>Hadhee Rahman</h1>
+          <p>Full Stack Developer</p>
+        </div>
+        <nav>
+          <a href="#aboutme">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <!-- About Section -->
+      <section id="aboutme">
+        <div>
+          <img src="Assests/profile.jpg" width="200" alt="Hadhee Rahman" />
+          <div>
+            <h2>About Me</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, ut
+              quibusdam? Dignissimos atque delectus, vero voluptatibus esse
+              perferendis laudantium distinctio et excepturi cum praesentium
+              blanditiis minima veniam autem sit animi?
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects">
+        <h2>My Projects</h2>
+        <article>
+          <h3>Bank Application</h3>
+          <img src="Assests/banks.jpeg" alt="Bank Application" />
+          <p>
+            A basic bank application to transfer, loan and check bank balance in
+            our account.
+            <a href="#">View Project &rarr;</a>
+          </p>
+        </article>
+
+        <hr />
+
+        <article>
+          <h3>Guess Number Game</h3>
+          <img src="Assests/guess game.png" alt="Number Guessing Game" />
+          <p>
+            A number guessing game, where a random number is generated and one
+            should guess number through input provided.
+            <a href="#">View Project &rarr;</a>
+          </p>
+        </article>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="">
+          <div>
+            <label for="name">Name:</label>
+            <input id="name" type="text" placeholder="Your name" required />
+          </div>
+
+          <div>
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="Your email" required />
+          </div>
+
+          <div>
+            <label for="subject">Subject:</label>
+            <input id="subject" type="text" placeholder="Subject" />
+          </div>
+
+          <div>
+            <label for="message">Message:</label>
+            <textarea
+              id="message"
+              placeholder="Type your message"
+              cols="30"
+              rows="5"
+            ></textarea>
+          </div>
+
+          <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; Hadhee Rahman 2025 <span>All rights reserved.</span></p>
+      <a href="#">Back to top</a>
+    </footer>
+  </body>
+</html>
